@@ -10,8 +10,8 @@ import kotlin.coroutines.resumeWithException
 import kotlin.coroutines.suspendCoroutine
 
 object SunnyWeatherNetwork {
-    private val placeService = ServiceCreator.createService(PlaceService::class.java)
-    private val weatherService = ServiceCreator.createService(WeatherService::class.java)
+    private val placeService = ServiceCreator.createService<PlaceService>()
+    private val weatherService = ServiceCreator.createService<WeatherService>()
 
     suspend fun searchPlaces(query: String) = placeService.searchPlaces(query).await()
 
