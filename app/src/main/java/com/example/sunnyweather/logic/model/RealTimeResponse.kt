@@ -1,6 +1,5 @@
 package com.example.sunnyweather.logic.model
 
-import com.google.gson.annotations.SerializedName
 
 data class RealTimeResponse(val status: String, val result: Result) {
 

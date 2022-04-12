@@ -14,7 +14,6 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.ViewModelProvider
 import com.example.sunnyweather.BaseActivity
 import com.example.sunnyweather.R
-import com.example.sunnyweather.databinding.ActivityMainBinding
 import com.example.sunnyweather.databinding.ActivityWeatherBinding
 import com.example.sunnyweather.logic.model.Weather
 import com.sunnyweather.android.logic.model.getSky

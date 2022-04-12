@@ -1,6 +1,5 @@
 package com.example.sunnyweather
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.sunnyweather.databinding.ActivityMainBinding
 

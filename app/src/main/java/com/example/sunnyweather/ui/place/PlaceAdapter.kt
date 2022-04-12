@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.sunnyweather.R
-import com.example.sunnyweather.databinding.PlaceItemBinding
 import com.example.sunnyweather.ui.weather.WeatherActivity
 import com.example.sunnyweather.logic.model.PlaceResponse
 

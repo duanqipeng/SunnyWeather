@@ -1,6 +1,5 @@
 package com.example.sunnyweather.logic.model
 
-import com.google.gson.annotations.SerializedName
 import java.util.*
 
 data class DailyResponse(val status: String, val result: Result) {

@@ -5,7 +5,6 @@ import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import com.example.sunnyweather.logic.model.PlaceResponse
 import com.example.sunnyweather.logic.DataRepository
-import com.example.sunnyweather.logic.dao.PlaceDao
 
 class PlaceViewModel : ViewModel() {
     private val searchLiveData = MutableLiveData<String>()
