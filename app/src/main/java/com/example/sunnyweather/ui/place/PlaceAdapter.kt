@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.sunnyweather.R
+import com.example.sunnyweather.databinding.PlaceItemBinding
 import com.example.sunnyweather.ui.weather.WeatherActivity
 import com.example.sunnyweather.logic.model.PlaceResponse
-import kotlinx.android.synthetic.main.activity_weather.*
 
 class PlaceAdapter(
     private val fragment: PlaceFragment,
@@ -29,7 +29,7 @@ class PlaceAdapter(
             val position = viewHolder.absoluteAdapterPosition
             val place = placeList[position]
             if (activity is WeatherActivity) {
-                activity.drawerLayout.closeDrawers()
+                activity.bind.drawerLayout.closeDrawers()
                 activity.viewmodel.locationLng = place.location.lng
                 activity.viewmodel.locationLat = place.location.lat
                 activity.viewmodel.placeName = place.name
