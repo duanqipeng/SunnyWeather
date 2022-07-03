@@ -7,8 +7,6 @@ class MainActivity : BaseActivity() {
     override val bind by getBind<ActivityMainBinding>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-
     }
 
 }
